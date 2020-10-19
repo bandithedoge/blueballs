@@ -1,2 +1,3 @@
-# blueballs
-Yet another blue-ish color scheme
+![blueballs](blueballs.png)
+
+![colors](colors.png)
