@@ -41,7 +41,7 @@
 .theme-dark .container-1D34oG, .theme-dark .headerNormal-T_seeN {
   background-color: #20222c; }
 
-.theme-dark .perksModal-fSYqOq {
+.theme-dark .perksModal-fSYqOq, .privateChannels-1nO12o {
   background-color: #181a23; }
 
 .theme-dark .currentTierIcon-2gcTCn, .theme-dark .selectedTier-1JkO7i .tierMarkerLabelText-F_zS1F, .childWrapper-anI2G9, .protip-YaFfgO, .theme-dark .tierLock-3CSxSX, .theme-dark .markValue-2DwdXI {
@@ -67,13 +67,23 @@
 .headerPlaying-j0WQBV {
   background: #4b74ad; }
 
-/* new mentions indicator */
+/* red indicators */
 .mention-1f5kbO, .wrapper-232cHJ {
   background-color: #cf4e54; }
 
-/* mention counter badge */
 .numberBadge-2s8kKX.base-PmTxvP {
   background-color: #cf4e54 !important; }
+
+.isUnread-3Ef-o9 {
+  border-color: #cf4e54; }
+
+.unreadPillCapStroke-7rkHbg {
+  color: #cf4e54;
+  fill: #cf4e54; }
+
+.unreadPill-2HyYtt {
+  background-color: #cf4e54;
+  color: #d9dceb; }
 
 /* buttons */
 .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91 {
