@@ -1,0 +1,217 @@
+$bg: #20222c
+$bgdark: #181a23
+$selection: #35384a
+
+$comment: #737998
+$fg: #d9dceb
+$accent: #4b74ad
+
+$red: #cf4e54
+$green: #69d26e
+$yellow: #cebc6d
+$blue: #54c1b8
+$purple: #b96be1
+$cyan: #d09a55
+
+.theme-dark
+  --background-primary: #{$bgdark}
+  --background-secondary: #{$bg}
+  --background-secondary-alt: #{$bgdark}
+  --background-tertiary: #{$bgdark}
+  --background-floating: #{$bg}
+  --background-accent: #{$bgdark}
+  --background-modifier-accent: #{$bgdark}
+  --background-modifier-selected: #{$selection}
+  --background-modifier-hover: #{$bgdark}
+  --background-modifier-active: #{$bg}
+  --activity-card-background: #{$bgdark}
+  --channeltextarea-background: #{$bg}
+  --background-message-hover: #{$bg}
+  --deprecated-card-bg: #{$bg}
+  --deprecated-card-editable-bg: #{$bg}
+  --deprecated-text-input-bg: #{$bg}
+
+  --header-primary: #{$fg}
+  --header-secondary: #{$fg}
+  --text-normal: #{$fg}
+  --text-muted: #{$comment}
+  --channels-default: #{$comment}
+  --interactive-active: #{$fg}
+  --interactive-normal: #{$fg}
+  --interactive-hover: #{$fg}
+  --interactive-muted: #{$selection}
+  --text-link: #{$accent}
+  --textbox-markdown-syntax: #{$comment}
+
+  --scrollbar-thin-thumb: #{$accent}
+  --scrollbar-auto-scrollbar-color-thumb: #{$accent}
+  --scrollbar-auto-scrollbar-color-track: #{$bgdark}
+
+.theme-dark .container-1D34oG, .theme-dark .headerNormal-T_seeN
+  background-color: $bg
+
+.theme-dark .perksModal-fSYqOq
+  background-color: $bgdark
+
+.theme-dark .currentTierIcon-2gcTCn, .theme-dark .selectedTier-1JkO7i .tierMarkerLabelText-F_zS1F, .childWrapper-anI2G9, .protip-YaFfgO, .theme-dark .tierLock-3CSxSX, .theme-dark .markValue-2DwdXI
+  color: $fg
+
+.theme-dark .markDash-3hAolZ
+  background: $fg
+
+/* muted/deafened icon strikethrough */
+.strikethrough-1n4ekb
+  color: $accent
+
+/* spotify background */
+.headerSpotify-zpWxgT
+  background: $green
+
+/* user popout */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6
+  background-color: $bg
+  color: $fg
+
+/* user popout in-game */
+.headerPlaying-j0WQBV
+  background: $accent
+
+/* new mentions indicator */
+.mention-1f5kbO, .wrapper-232cHJ
+  background-color: $red
+
+/* mention counter badge */
+.numberBadge-2s8kKX.base-PmTxvP
+  background-color: $red !important
+
+/* buttons */
+.lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91
+  background-color: $accent
+  color: $fg
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover
+  background-color: $selection
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6
+  background-color: $bgdark
+  color: $fg
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover
+  background-color: $selection
+.lookFilled-1Gx00P.colorBrand-3pXr91:active
+  background-color: $bg
+
+/* server booster icon */
+.premiumIcon-1rDbWQ
+  color: $purple
+
+/* bot tag */
+.botTagRegular-2HEhHi
+  background: $accent
+  color: $fg
+
+/* new pins indicator */
+.iconBadge-qZ4Ksk
+  background-color: $red
+
+/* nitro shit */
+.theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9
+  background-color: $bg
+
+.theme-dark .tierHeaderUnlocked-1n-OTI, .theme-light .tierHeaderUnlocked-1n-OTI, .wrapper-3nSjSv, .premiumLogo-1D3iJc
+  background-image: linear-gradient(90deg,$accent,$purple)
+  color: $fg
+
+.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv
+  background-color: $fg
+  color: $accent
+
+.theme-dark .tierHeaderLocked-1s2JJz
+  background-color: $bgdark
+  color: $fg
+
+.barForeground-3KglC8
+  background-color: $purple
+
+.tierMarkerLabelPlusIcon-1OS7E9, .theme-dark .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe, .theme-light .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe, .colorPremium-p4p7qO .icon-LYJorE
+  color: $purple
+
+.lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91
+  background-color: $fg
+  color: $bg
+
+.theme-dark .featureEmoji-3pTtR2 .featureTitle-W5O6R1
+  color: $red
+.theme-dark .featureProfile-tTo0C- .featureTitle-W5O6R1
+  color: $green
+.featurePremiumGuild-2KpCr6 .featureTitle-W5O6R1
+  color: $yellow
+.theme-dark .featureBadge-3ZA-Ca .featureTitle-W5O6R1
+  color: $blue
+.featureUploadSize-2CAVFL .featureTitle-W5O6R1
+  color: $purple
+.featureGoLive-30cvVw .featureTitle-W5O6R1
+  color: $cyan
+
+/* settings things colors */
+.userSettingsSecurity-2WQWqX .isEnabled-1uQQER
+  color: $green
+
+.lookOutlined-3sRXeN.colorRed-1TFJan
+  color: $red
+  border-color: $red
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91
+  color: $accent
+  border-color: $accent
+
+.lookFilled-1Gx00P.colorGreen-29iAKY
+  background-color: $green
+  color: $fg
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover
+  background-color: $selection
+
+.theme-dark .closeButton-1tv5uR
+  border-color: $accent
+.theme-dark .closeButton-1tv5uR:hover
+  background-color: $accent
+
+.theme-dark .keybind-KpFkfr
+  color: $accent
+
+.theme-dark .codeRedemptionRedirect-1wVR4b
+  color: $fg
+  background-color: $bg
+  border-color: $accent
+
+.membershipDialogHouse3-15OBIQ
+  background-color: $green
+
+.css-gvi9bl-control
+  background-color: $bg
+  border-color: $bg
+.css-gvi9bl-control:hover
+  border-color: $bgdark
+
+.theme-dark .bar-2Qqk5Z
+  background: $bg
+
+.barFill-23-gu-
+  background: $accent
+
+.theme-dark .progress-1IcQ3A
+  background-color: $bgdark
+
+.container-3PXSwK
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, $cyan, $green) repeat scroll 0% 0% !important
+
+.beta-3smTDE
+  color: $red
+
+.defaultValue-3gC7yw .markValue-2DwdXI
+  color: $green
+
+/* popups */
+.theme-dark .root-1gCeng
+  background-color: $bg
+
+.theme-dark .footer-2gL1pp
+  background-color: $bgdark
