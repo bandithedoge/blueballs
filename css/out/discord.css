@@ -19,7 +19,7 @@
   --background-modifier-active: #20222c;
   --activity-card-background: #181a23;
   --channeltextarea-background: #20222c;
-  --background-message-hover: #20222c;
+  --background-message-hover: #181a23;
   --deprecated-card-bg: #20222c;
   --deprecated-card-editable-bg: #20222c;
   --deprecated-text-input-bg: #20222c;
@@ -38,7 +38,7 @@
   --scrollbar-auto-scrollbar-color-thumb: #4b74ad;
   --scrollbar-auto-scrollbar-color-track: #181a23; }
 
-.theme-dark .container-1D34oG, .theme-dark .headerNormal-T_seeN {
+.theme-dark .container-1D34oG, .theme-dark .headerNormal-T_seeN, .theme-dark .modal-yWgWj- {
   background-color: #20222c; }
 
 .theme-dark .perksModal-fSYqOq, .privateChannels-1nO12o {
@@ -102,6 +102,10 @@
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:active {
   background-color: #20222c; }
+
+.lookFilled-1Gx00P.colorRed-1TFJan {
+  color: #d9dceb;
+  background-color: #cf4e54; }
 
 /* server booster icon */
 .premiumIcon-1rDbWQ {
