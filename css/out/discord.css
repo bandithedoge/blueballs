@@ -18,7 +18,7 @@
   --background-modifier-hover: #181a23;
   --background-modifier-active: #20222c;
   --activity-card-background: #181a23;
-  --channeltextarea-background: #20222c;
+  --channeltextarea-background: #181a23;
   --background-message-hover: #181a23;
   --deprecated-card-bg: #20222c;
   --deprecated-card-editable-bg: #20222c;
@@ -41,10 +41,10 @@
   --scrollbar-auto-scrollbar-color-thumb: #4b74ad;
   --scrollbar-auto-scrollbar-color-track: #181a23; }
 
-.theme-dark .container-1D34oG, .theme-dark .headerNormal-T_seeN, .theme-dark .modal-yWgWj- {
+.theme-dark .container-1D34oG, .theme-dark .headerNormal-T_seeN, .theme-dark .modal-yWgWj-, .theme-dark .uploadModal-2ifh8j {
   background-color: #20222c; }
 
-.theme-dark .perksModal-fSYqOq, .privateChannels-1nO12o {
+.theme-dark .perksModal-fSYqOq, .privateChannels-1nO12o, .theme-dark .footer-3mqk7D {
   background-color: #181a23; }
 
 .theme-dark .currentTierIcon-2gcTCn, .theme-dark .selectedTier-1JkO7i .tierMarkerLabelText-F_zS1F, .childWrapper-anI2G9, .protip-YaFfgO, .theme-dark .tierLock-3CSxSX, .theme-dark .markValue-2DwdXI {
@@ -60,6 +60,9 @@
 /* spotify background */
 .headerSpotify-zpWxgT {
   background: #69d26e; }
+
+.attachButtonPlay-3iJ0mf {
+  color: #69d26e; }
 
 /* user popout */
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
@@ -234,3 +237,7 @@
 
 .theme-dark .footer-2gL1pp {
   background-color: #181a23; }
+
+/* user bar */
+.panels-j1Uci_ {
+  background-color: var(--background-secondary); }
