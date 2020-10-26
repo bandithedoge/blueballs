@@ -10,7 +10,7 @@ The colors should be relatively self-explanatory but here are some notes for por
 
 * **bg** is the main background color of your document/terminal and **bg dark** is a secondary background color used for additional UI elements such as headers and status bars.
 * **selection** is the background of selected text.
-* **comment** is used for comments in text files but can also be used as a secondary foreground color for unavailable/grayed-out elements.
+* **comment** is used for comments in text files but can also be used as a secondary foreground color for disabled elements.
 * **fg** is the main foreground.
 * **accent** is the accent color used for currently relevant UI elements. Use of this color can be very subjective.
 * Other colors should only be used for syntax highlighting and specifically colored UI elements. "Cyan" is actually orange but we keep the original name terminals use.
@@ -38,6 +38,20 @@ If you want to add a port, use the following template and put it in the right ca
 
 <short installation instructions, can be a link if more effort is required>
 ```
+
+## Terminals
+
+### [Kitty](terminals/kitty/kitty-blueballs.conf)
+
+* **Maintainer**: @bandithedoge
+
+#### Screenshot
+
+![Kitty](terminals/kitty/screenshot.png)
+
+#### Instructions
+
+Download the file somewhere on your computer and source it in your `kitty.conf` (`include <path_to_file>`) or copy its contents to your config file.
 
 ## Text editors
 
@@ -70,7 +84,7 @@ If you want to add a port, use the following template and put it in the right ca
 
 ## Other
 
-### [Discord](https://github.com/bandithedoge/blueballs/blob/main/css/out/discord.css)
+### [Discord](discord/out/discord.css)
 
 * **Maintainer**: @bandithedoge
 
@@ -80,6 +94,6 @@ If you want to add a port, use the following template and put it in the right ca
 
 #### Instructions
 
-Install [BetterDiscord](https://github.com/bandithedoge/blueballs/blob/main/css/out/discord.css) and save the CSS file as `blueballs.theme.css` in your BetterDiscord config directory.
+Install [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp) and save the CSS file as `blueballs.theme.css` in your BetterDiscord config directory.
 
 *This theme can also be used with other Discord CSS injectors or [Stylus](https://github.com/openstyles/stylus).*
