@@ -17,4 +17,4 @@ The colors should be relatively self-explanatory but here are some notes for por
 
 When in doubt, use [blueballs.vim](https://github.com/bandithedoge/blueballs.vim) for reference. **Please do not change the colors** unless it's absolutely required and justified.
 
-**[List of available ports](ports.org)**
+# [List of available ports](ports.org)
