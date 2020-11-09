@@ -9,4 +9,5 @@ If you want to add a port, use the following template and put it in the right ca
 * Ports
 ** Terminals
 *** [[terminals/kitty/][Kitty]]
+- Maintainer: @bandithedoge
 [[terminals/kitty/screenshot.png]]
