@@ -1,4 +1,5 @@
 #+TITLE: Ports
+#+OPTIONS: toc:3
 * blueballs
 Here are all blueballs ports I'm aware of for text editors and different software.
 * Contributing
@@ -9,5 +10,11 @@ If you want to add a port, use the following template and put it in the right ca
 * Ports
 ** Terminals
 *** [[terminals/kitty/][Kitty]]
-- Maintainer: @bandithedoge
+- *Maintainer*: [[https://github.com/bandithedoge][bandithedoge]]
 [[terminals/kitty/screenshot.png]]
+**** Instructions
+Download the file somewhere on your computer and source it in your =kitty.conf= (~include <path_to_file>~) or copy its contents to your config file.
+** Text editors
+*** [[https://github.com/bandithedoge/blueballs.vim][vim]]
+- *Maintainer*: [[https://github.com/bandithedoge][bandithedoge]]
+  https://github.com/bandithedoge/blueballs.vim
