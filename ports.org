@@ -1,0 +1,12 @@
+#+TITLE: Ports
+* blueballs
+Here are all blueballs ports I'm aware of for text editors and different software.
+* Contributing
+If you want to add a port, use the following template and put it in the right category:
+
+#+BEGIN_SRC org
+#+END_SRC
+* Ports
+** Terminals
+*** [[terminals/kitty/][Kitty]]
+[[terminals/kitty/screenshot.png]]
