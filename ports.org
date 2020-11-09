@@ -12,7 +12,6 @@ If you want to add a port, use the following template and put it in the right ca
 <short installation guide, can be a link if more effort is required>
 #+END_SRC
 * Ports
-** Table of contents
 - [[#terminals][Terminals]]
   - [[#kitty][Kitty]]
 - [[#text-editors][Text editors]]
