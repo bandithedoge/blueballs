@@ -1,3 +1,5 @@
+# Do not port! New color scheme coming soon.
+
 ![blueballs](blueballs.png)
 
 **blueballs** is a color scheme inspired by [Nord](https://www.nordtheme.com/) and [Dracula](https://www.nordtheme.com/). It's mostly intended for terminals and text editors but porting it everywhere possible is encouraged.
